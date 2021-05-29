@@ -1,0 +1,21 @@
+def plusMinus(arr):
+    a=[]
+    b=[]
+    c=[]
+    for i in range(len(arr)):
+        if(arr[i]>0):
+            a.append(i)
+        elif(arr[i]<0):
+            b.append(i)
+        elif(arr[i]==0):
+            c.append(i)
+            
+    d=len(a)
+    e=len(b)
+    f=len(c)
+    g=d+e+f
+    print(d/g)
+    print(e/g)
+    print(f/g)        
+                    
+
