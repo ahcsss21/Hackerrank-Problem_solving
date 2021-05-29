@@ -1,0 +1,22 @@
+# Complete the countApplesAndOranges function below.
+def countApplesAndOranges(s, t, a, b, apples, oranges):
+    dist1=[]
+    dist2=[]
+    for k in range(len(apples)):
+        w=a+apples[k]
+        dist1.append(w) 
+    for l in range(len(oranges)):
+        u=b+oranges[l]
+        dist2.append(u) 
+    final=[]
+    final1=[]
+    for i in range(len(dist1)):
+        if(s<=dist1[i]<=t):
+            final.append(dist1[i])
+    for j in range(len(dist2)):
+        if(s<=dist2[j]<=t):
+            final1.append(dist2[j])
+    print(len(final))
+    print(len(final1))      
+            
+ 
