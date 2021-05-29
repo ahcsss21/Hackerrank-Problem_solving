@@ -1,0 +1,7 @@
+def miniMaxSum(arr):
+    arr.sort()
+    c=arr[0]+arr[1]+arr[2]+arr[3]
+    d=arr[1]+arr[2]+arr[3]+arr[4]
+    print(c,end=" ")
+    print(d,end=" ")
+
